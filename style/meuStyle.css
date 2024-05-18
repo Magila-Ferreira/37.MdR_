@@ -64,16 +64,17 @@ body {
     color: #D9D9D9;
     text-decoration-line: none;
     font-size: 20;
-    margin: auto 0;
+    margin: auto;
 }
 
 .icons {
     width: 25%;
-    margin: auto 0;
+    margin: auto;
 }
 
 i {
     color: #2484C6;
+    vertical-align: middle;
 }
 
 h1 {
