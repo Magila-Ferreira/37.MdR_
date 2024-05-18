@@ -32,12 +32,29 @@ body {
 }
 
 .header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: #000;
     padding: 1%;
     vertical-align: center;
 }
 
+.logotipo {
+    width: 10%;
+    font-weight: bold;
+    font-family: 'Segoe Script';
+    color: #2484C6;
+    margin: auto;
+}
+
+.dl_green {
+    width: 32px;
+}
+
 .menu {
+    width: 65%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -47,9 +64,21 @@ body {
     color: #D9D9D9;
     text-decoration-line: none;
     font-size: 20;
+    margin: auto;
+}
+
+.icons {
+    width: 25%;
+    margin: auto;
+}
+
+i {
+    color: #2484C6;
+    vertical-align: middle;
 }
 
 h1 {
     margin: 2%;
     font-size: 32px;
 }
+
