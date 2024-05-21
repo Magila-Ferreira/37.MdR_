@@ -51,7 +51,7 @@ body {
 }
 
 .dl_green {
-    width: 20px;
+    width: 20%;
 }
 
 .dl_green:hover {
@@ -94,9 +94,10 @@ body {
 }
 
 h1 {
-    margin: 2%;
+    margin: 3%;
     font-size: 32px;
     font-weight: bolder;
+    color: #ada;
 }
 
 h2 {
