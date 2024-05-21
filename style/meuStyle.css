@@ -93,6 +93,18 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
+main {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.container, .posts, .post {
+    padding: 0;
+    margin: auto;
+    width: 100%;
+}
+
 h1 {
     margin: 3%;
     font-size: 32px;
@@ -111,5 +123,5 @@ h2 {
 
 .texto_post {
     text-align: justify;
-    padding: 5%;
+    padding-top: 3%;
 }
