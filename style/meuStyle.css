@@ -118,10 +118,10 @@ h2 {
 }
 
 .imagem_post {
-    width: 40%;
+    width: 30%;
 }
 
 .texto_post {
     text-align: justify;
-    padding-top: 3%;
+    padding: 3%;
 }
