@@ -50,11 +50,11 @@ body {
     margin: auto;
 }
 
-.dl_green {
+.logo_green {
     width: 20%;
 }
 
-.dl_green:hover {
+.logo_green:hover {
     transform: scale(1.2);
     transition: transform 0.5s ease-in-out;
 }
@@ -73,7 +73,7 @@ body {
     margin: auto 5%;
 }
 
-.menu a:hover {
+.menu a:hover, a:hover {
     transform: scale(1.2);
     transition: transform 0.5s ease-in-out;
     color: #B5E61D;
@@ -93,35 +93,140 @@ body {
     transition: transform 0.5s ease-in-out;
 }
 
-main {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-.container, .posts, .post {
-    padding: 0;
+main, .container, .post, .posts, .postagem, .imagem {
     margin: auto;
+    padding: 0;
     width: 100%;
 }
 
-h1 {
+.logo {
     margin: 3%;
     font-size: 32px;
     font-weight: bolder;
-    color: #ada;
+    color: #aea;
 }
 
-h2 {
-    margin: 2%;
-    font-size: 20px;
-}
-
-.imagem_post {
-    width: 30%;
+.postagem {
+    display: flex;
+    margin-bottom: 2%;
+    background-color: #fafffa;
+    border: .5px outset #15B883;
+    box-shadow: 0 5px 10px rgba(0, 100, 0, 0.5);
 }
 
 .texto_post {
     text-align: justify;
-    padding: 3%;
+    width: 70%;
+    padding: 2%;
+}
+
+h2 {
+    margin: 1% auto;
+    font-size: 20px;
+}
+
+.texto {
+    color: #000;
+}
+
+.imagem {
+    width: 30%;
+}
+
+.imagem_post {
+    width: 90%;
+    padding: auto 5%;
+}
+
+.footer, a, .nav-link {
+    margin-bottom: 0;
+    bottom: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 1% 5%;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    margin: 1% 3%;
+}
+
+.nav-link {
+    color: #ddd;
+}
+
+.nav-link:hover {
+    color: #15B883;
+}
+
+.composição {
+    color: #aaa;
+}
+
+@media screen and (max-width: 1350px) {
+    .postagem {
+        width: 90%;
+    }
+    .texto_post {
+        width: 100%;
+    }
+    .imagem {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .postagem {
+        display: block;
+    }
+    .imagem {
+        width: 95%;
+        margin: 3% 2%;
+    }
+    .texto_post {
+        width: 90%;
+        margin: auto 5%;
+    }
+    .header {
+        flex-direction: column;
+    }
+    .logotipo {
+        text-align: start;
+    }
+    .logo_green {
+        width: 10%;
+        margin-top: 2%;
+    }
+    .logotipo, .menu, .icons {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .menu {
+        flex-direction: column;
+        margin: 0 auto 5% auto;
+    } 
+}
+
+@media screen and (max-width: 200px) {
+    .header {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .icons {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 5% auto;
+    }
+    .logo {
+        font-size: 16px;
+    }
+    a, h2, p {
+        font-size: 12px;
+    }
 }
