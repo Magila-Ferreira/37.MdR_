@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <!-- TESTE -->
+<!-- TESTE -->
 
 <head>
     <meta charset="UTF-8">
@@ -36,10 +36,6 @@
     </link>
     <link defer rel="stylesheet" type="text/css" href="../style/meuStylePublicar.css">
     </link>
-
-    <!-- myJS -->
-    <script defer src="../script/publicar.js" type="text/script"></script>
-
 </head>
 
 <body>
@@ -70,7 +66,7 @@
 
     <main class="container">
         <h1 class="logo">Manejo de Resíduos</h1>
-        <form action="../index.html">
+        <form id="publicacao" action="../index.html" method="post">
             <h5 class="linha pb-3 mb-3">Informações da publicação</h5>
             <div class="cabeçalho_post">
                 <div class="campo_imagem">
@@ -91,13 +87,13 @@
 
             <div class="footer_post">
                 <h6> AUTOR </h6>
-                <input class="autor_post" type="text" name="Autor" id="autor">
+                <input class="autor_post" type="text" name="Autor" id="autor" autocomplete="on">
 
                 <h6> DATA </h6>
-                <input class="data_post" type="text" name="Data" id="data">
+                <input class="data_post" type="text" name="Data" id="data" autocomplete="on">
 
                 <h6> EMAIL </h6>
-                <input class="email_post" type="text" name="Email" id="email">
+                <input class="email_post" type="text" name="Email" id="email" autocomplete="on">
 
                 <div class="button_post">
                     <button type="submit" name="Enviar" id="enviar">Enviar</button>
@@ -115,6 +111,7 @@
         </ul>
         <p class="text-center composição">© 2024 Projeto Integrador, FATEC</p>
     </footer>
+    <!-- myJS -->
+    <script src="../script/publicar.js" type="text/script"></script>
 </body>
-
 </html>
