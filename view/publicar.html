@@ -33,6 +33,8 @@
     <!-- myCSS -->
     <link defer rel="stylesheet" type="text/css" href="../style/meuStyle.css">
     </link>
+    <link defer rel="stylesheet" type="text/css" href="../style/meuStylePublicar.css">
+    </link>
 
     <!-- myJS -->
     <script defer src="../script/meuScript.js" type="text/script"></script>
@@ -66,31 +68,36 @@
     </header>
 
     <main class="container">
-        <h1 class="logo">Manejo de Resíduos</h1>      
+        <h1 class="logo">Manejo de Resíduos</h1>
     </main>
     <form>
+        <div class="cabeçalho_post">
+            <h6 class="imagem_post"> IMAGEM </h6>
+            <!-- Campo para selecionar a imagem -->
 
-        <h6> IMAGEM </h6>
+            <h6> TÍTULO </h6>
+            <input type="text" name="Titulo" id="titulo">
+        </div>
 
-        <h6> TÍTULO </h6>
-        <input type="text" name="Titulo" id="titulo">
+        <div class="corpo_post">
+            <h6> TEXTO </h6>
+            <textarea id="texto"></textarea>
+        </div>
 
-        <h6> TEXTO </h6>
-        <textarea id="texto">
+        <div class="footer_post">
+            <h6> AUTOR </h6>
+            <input type="text" name="Autor" id="autor">
 
-        </textarea>
+            <h6> DATA </h6>
+            <input type="text" name="Data" id="data">
 
-        <h6> AUTOR </h6>
-        <input type="text" name="Autor" id="autor">
+            <h6> EMAIL </h6>
+            <input type="text" name="Email" id="email">
+        </div>
 
-        <h6> DATA </h6>
-        <input type="text" name="Data" id="data">
-
-        <h6> EMAIL </h6>
-        <input type="text" name="Email" id="email">
-
-        <input type="submit" name="Enviar"  id="enviar">
-        
+        <div class="button_post">
+            <input type="submit" name="Enviar" id="enviar">
+        </div>
     </form>
 </body>
 
