@@ -1,4 +1,6 @@
 const fileInput = document.querySelector('#imagem');
+const tituloDoPost = document.querySelector("#titulo");
+console.log(tituloDoPost);
 
 fileInput.addEventListener('change', (event) => {
   // O evento `change` é acionado quando o usuário seleciona uma imagem.
