@@ -56,49 +56,60 @@
         <section class="icons">
             <!-- ADICIONAR ICONES DAS MÍDIAS SOCIAIS -->
             <a href="#">
-                <img src="../img/instagram_icon.png">
+                <img class="icone_rede_social" src="../img/instagram_icon.png">
             </a>
             <a href="#">
-                <img src="../img/facebook_icon.png">
+                <img class="icone_rede_social" src="../img/facebook_icon.png">
             </a>
             <a href="#">
-                <img src="../img/youtube_icon.png">
+                <img class="icone_rede_social" src="../img/youtube_icon.png">
             </a>
         </section>
     </header>
 
     <main class="container">
         <h1 class="logo">Manejo de Resíduos</h1>
+        <form>
+            <h5 class="linha pb-3 mb-3">Informações da publicação</h5>
+            <div class="cabeçalho_post">
+                <h6 class="imagem_post"> IMAGEM </h6>
+                <!-- Campo para selecionar a imagem -->
+    
+                <h6> TÍTULO </h6>
+                <input type="text" name="Titulo" id="titulo">
+            </div>
+    
+            <div class="corpo_post">
+                <h6> TEXTO </h6>
+                <textarea id="texto"></textarea>
+            </div>
+    
+            <div class="footer_post">
+                <h6> AUTOR </h6>
+                <input class="autor_post" type="text" name="Autor" id="autor">
+    
+                <h6> DATA </h6>
+                <input class="data_post" type="text" name="Data" id="data">
+    
+                <h6> EMAIL </h6>
+                <input class="email_post" type="text" name="Email" id="email">
+    
+                <div class="button_post">
+                    <button type="submit" name="Enviar" id="enviar">Enviar</button>
+                </div>
+            </div>
+        </form>
     </main>
-    <form>
-        <div class="cabeçalho_post">
-            <h6 class="imagem_post"> IMAGEM </h6>
-            <!-- Campo para selecionar a imagem -->
-
-            <h6> TÍTULO </h6>
-            <input type="text" name="Titulo" id="titulo">
-        </div>
-
-        <div class="corpo_post">
-            <h6> TEXTO </h6>
-            <textarea id="texto"></textarea>
-        </div>
-
-        <div class="footer_post">
-            <h6> AUTOR </h6>
-            <input type="text" name="Autor" id="autor">
-
-            <h6> DATA </h6>
-            <input type="text" name="Data" id="data">
-
-            <h6> EMAIL </h6>
-            <input type="text" name="Email" id="email">
-        </div>
-
-        <div class="button_post">
-            <input type="submit" name="Enviar" id="enviar">
-        </div>
-    </form>
+    <footer class="footer">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2">Gabriel Álvarez</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">Gustavo B. Segur</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">Ian Pereira</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">Jairo Ulloa</a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2">Mágila M. S. Ferreira</a></li>
+        </ul>
+        <p class="text-center composição">© 2024 Projeto Integrador, FATEC</p>
+      </footer>
 </body>
 
 </html>

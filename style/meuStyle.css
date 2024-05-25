@@ -85,11 +85,11 @@ body {
     margin: auto;
 }
 
-.icons a img {
+.icone_rede_social {
     width: 32px;
 }
 
-.icons a img:hover {
+.icone_rede_social:hover {
     transform: scale(1.5);
     transition: transform 0.5s ease-in-out;
 }
@@ -105,6 +105,7 @@ main, .container, .post, .posts, .postagem, .imagem {
     font-size: 32px;
     font-weight: bolder;
     color: #aea;
+    text-shadow: 2px 2px 5px #F00;
 }
 
 .postagem {
@@ -193,6 +194,7 @@ li {
     }
     .header {
         flex-direction: column;
+        padding: 2%;
     }
     .logotipo {
         text-align: start;
@@ -211,6 +213,16 @@ li {
         flex-direction: column;
         margin: 0 auto 5% auto;
     } 
+    .header {
+        padding: 2.5%;
+    }
+    .cabeçalho_post {
+        flex-direction: column;
+        margin: 0 auto 5% auto;
+    }
+    .imagem_post {
+        margin-bottom: 10%;
+    }
 }
 
 @media screen and (max-width: 200px) {
@@ -224,10 +236,10 @@ li {
         flex-direction: column;
         margin: 0 auto 5% auto;
     }
-    .logo {
+    .logo, .linha {
         font-size: 16px;
     }
-    a, h2, p {
+    a, h2, h6, p {
         font-size: 12px;
     }
 }
