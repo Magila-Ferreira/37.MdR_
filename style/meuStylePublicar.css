@@ -20,6 +20,11 @@ input {
     display: flex;
 }
 
+.campo_imagem, .campo_titulo {
+    width: 50%;
+    text-align: start;
+} 
+
 h6 {
     text-align: start;
     margin-right: 10px;
@@ -55,6 +60,20 @@ h6 {
 #enviar:hover {
     background-color: #6EA864;
     color: #000;
+}
+
+@media screen and (max-width: 800px) {
+    form {
+        max-width: 90%;
+        margin: 5% auto;
+    }
+    .cabeçalho_post {
+        flex-direction: column;
+        margin: 0 auto 5% auto;
+    }
+    .campo_imagem {
+        margin-bottom: 5%;
+    }
 }
 
 #paleta-de-cores {

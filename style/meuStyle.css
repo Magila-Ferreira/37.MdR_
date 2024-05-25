@@ -216,13 +216,6 @@ li {
     .header {
         padding: 2.5%;
     }
-    .cabeçalho_post {
-        flex-direction: column;
-        margin: 0 auto 5% auto;
-    }
-    .imagem_post {
-        margin-bottom: 10%;
-    }
 }
 
 @media screen and (max-width: 200px) {
