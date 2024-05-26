@@ -36,6 +36,9 @@
     </link>
     <link defer rel="stylesheet" type="text/css" href="../style/meuStylePublicar.css">
     </link>
+
+    <!-- myJS -->
+    <script defer src="../script/publicar.js"></script>
 </head>
 
 <body>
@@ -71,29 +74,29 @@
             <div class="cabeçalho_post">
                 <div class="campo_imagem">
                     <h6 class="imagem_post"> IMAGEM </h6>
-                    <input id="imagem" type="file">
+                    <input id="imagem" name="imagem" type="file">
                 </div>
 
                 <div class="campo_titulo">
                     <h6> TÍTULO </h6>
-                    <input type="text" name="Titulo" id="titulo">
+                    <input type="text" name="titulo" id="titulo">
                 </div>
             </div>
 
             <div class="corpo_post">
                 <h6> TEXTO </h6>
-                <textarea id="texto"></textarea>
+                <textarea id="texto" name="texto"></textarea>
             </div>
 
             <div class="footer_post">
                 <h6> AUTOR </h6>
-                <input class="autor_post" type="text" name="Autor" id="autor" autocomplete="on">
+                <input class="autor_post" type="text" name="autor" id="autor" autocomplete="on">
 
                 <h6> DATA </h6>
-                <input class="data_post" type="text" name="Data" id="data" autocomplete="on">
+                <input class="data_post" type="text" name="data" id="data" autocomplete="on">
 
                 <h6> EMAIL </h6>
-                <input class="email_post" type="text" name="Email" id="email" autocomplete="on">
+                <input class="email_post" type="text" name="email" id="email" autocomplete="on">
 
                 <div class="button_post">
                     <button type="submit" name="Enviar" id="enviar">Enviar</button>
@@ -111,7 +114,5 @@
         </ul>
         <p class="text-center composição">© 2024 Projeto Integrador, FATEC</p>
     </footer>
-    <!-- myJS -->
-    <script src="../script/publicar.js" type="text/script"></script>
 </body>
 </html>
