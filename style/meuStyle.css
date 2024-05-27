@@ -131,6 +131,7 @@ main {
     text-align: justify;
     vertical-align: top;
     width: 70%;
+    margin-right: 2%;
 }
 
 h2 {
@@ -142,6 +143,12 @@ h2 {
     color: #000;
 }
 
+.link_post {
+    background-color: #000;
+    color: #fff;
+    padding: 1% 1.5%;
+}
+
 .imagem {
     width: 30%;
 }
@@ -150,9 +157,7 @@ h2 {
     width: 100%;
 }
 
-.footer,
-a,
-.nav-link {
+.footer, .nav-link {
     background-color: #000;
     color: #fff;
     padding: 1% 5%;
@@ -184,23 +189,17 @@ li {
     }
 
     .texto_post {
-        width: 100%;
+        width: 70%;
     }
 
     .imagem {
-        width: 90%;
+        width: 30%;
     }
 }
 
-@media screen and (min-width: 1035px) {
+@media screen and (min-width: 800px) {
     main {
         min-height: 70vh;
-    }
-}
-
-@media screen and (min-width: 945px) and (max-width: 1013px) {
-    main {
-        min-height: 67vh;
     }
 }
 

@@ -32,12 +32,15 @@ function adicionaDadosNaPostagem(dados) {
     sectionPostagem.appendChild(divTexto_post);
     sectionPostagem.appendChild(divImagem);
 }
-let pegar = localStorage.getItem("publicação")
 
-let pegarPublicacao = JSON.parse(pegar);
+if (localStorage.getItem("publicação") != null) {
+    let pegar = localStorage.getItem("publicação");
 
-let titulo = document.getElementById("titulo");
-let texto = document.getElementById("Texto");
+    let pegarPublicacao = JSON.parse(pegar);
 
-titulo.innerHTML = pegarPublicacao.titulo
-texto.innerHTML = pegarPublicacao.texto
+    let titulo = document.getElementById("titulo");
+    let texto = document.getElementById("Texto");
+
+    titulo.textContent = pegarPublicacao.titulo;
+    texto.textContent = pegarPublicacao.texto;
+}
