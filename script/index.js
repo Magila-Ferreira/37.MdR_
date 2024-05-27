@@ -32,3 +32,12 @@ function adicionaDadosNaPostagem(dados) {
     sectionPostagem.appendChild(divTexto_post);
     sectionPostagem.appendChild(divImagem);
 }
+let pegar = localStorage.getItem("publicação")
+
+let pegarPublicacao = JSON.parse(pegar);
+
+let titulo = document.getElementById("titulo");
+let texto = document.getElementById("Texto");
+
+titulo.innerHTML = pegarPublicacao.titulo
+texto.innerHTML = pegarPublicacao.texto
