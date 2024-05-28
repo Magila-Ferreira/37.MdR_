@@ -3,7 +3,7 @@ const salvarPublicacao = document.querySelector('button');
 
 fileInput.addEventListener('change', (event) => {
     file = event.target.files[0];
-    console.log(file);
+    
     //console.log(`O nome do arquivo é: ${file.name}`);
     //console.log(`O tamanho do arquivo é: ${file.size}`);
 });
@@ -29,7 +29,7 @@ salvarPublicacao.addEventListener('click', (event) => {
     } else {
         alert("Local Storage indisponível");
     }
-
+    location.reload();
 });
 
 /* function adicionaDadosNaPostagem(dados) {

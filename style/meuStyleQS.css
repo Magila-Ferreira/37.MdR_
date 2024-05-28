@@ -1,0 +1,44 @@
+.container section {
+    text-align: justify;
+    max-width: 80%;
+    margin: 5% auto;
+}
+
+section h4 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.br {
+    border: 2px solid #090;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #090;
+    padding: 2%; 
+}
+
+.br h4 {
+    color: #090;
+}
+.en {
+    border: 2px solid #009;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #009;
+    padding: 2%; 
+}
+.en h4 {
+    color: #009;
+}
+
+.sp h4 {
+    color: #900;
+}
+.sp {
+    border: 2px solid #900;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #900;
+    padding: 2%; 
+}
+section h5 {
+    font-size: 16px;
+    font-weight: lighter;
+}

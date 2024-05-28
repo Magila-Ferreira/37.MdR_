@@ -9,6 +9,34 @@ header, main, footer {
     margin: 5% auto;
 }
 
+.titulo_postagem {
+    margin-bottom: 3%;
+}
+
+.texto {
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.referencias {
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.autor, .data {
+    
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
 .link_funcionalidades a {
     margin: 20%;
 }
