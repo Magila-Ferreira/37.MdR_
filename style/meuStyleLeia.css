@@ -19,8 +19,7 @@ header, main, footer {
 }
 
 .referencias {
-    display: flex;
-    justify-content: space-between;
+    text-align: start;
 }
 
 h5 {
@@ -28,15 +27,29 @@ h5 {
     font-weight: bold;
 }
 
-.autor, .data {
-    
-}
-
 .email {
     display: flex;
     flex-direction: column;
 }
 
-.link_funcionalidades a {
-    margin: 20%;
+.link_funcionalidades {
+    margin: 10%;
+}
+
+.editar_publicacao, .excluir_publicacao {
+    margin: auto 15%;
+    background-color: #000;
+    color: #fff;
+    padding: 1% 2%;
+    font-weight: bolder;
+}
+
+.editar_publicacao:hover {
+    background-color: #999;
+    color: #009;
+}
+
+.excluir_publicacao:hover {
+    background-color: #999;
+    color: #900;
 }
