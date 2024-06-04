@@ -40,7 +40,9 @@ if (localStorage.getItem("publicação") != null) {
 
     let titulo = document.getElementById("titulo");
     let texto = document.getElementById("Texto");
+    let imagem = document.getElementById("imagem");
 
     titulo.textContent = pegarPublicacao.titulo;
     texto.textContent = pegarPublicacao.texto;
-}
+    imagem.textContent = pegarPublicacao.file;
+} 

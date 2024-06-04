@@ -10,12 +10,26 @@ header, main, footer {
 }
 
 .titulo_postagem {
-    margin-bottom: 3%;
+    font-size: 32px;
+    margin: 3% auto;
+    font-weight: bold;
 }
 
 .texto {
     text-align: justify;
-    margin-top: 5%;
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.imagem_post {
+    margin-bottom: 5%;
+    max-width: 50%;
+}
+
+.sub_titulo_postagem {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .referencias {
