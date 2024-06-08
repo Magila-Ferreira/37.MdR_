@@ -107,4 +107,13 @@ h5 {
     color: #000;
 }
 
+.comentario_salvo {
+    text-align: justify;
+    color: #000;
+    max-width: 80%;
+    background-color: #aca;
+    border: #333 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
 

@@ -1,9 +1,17 @@
+var div = document.querySelector("div.comentarios");
+
 const txtAreaComentario = document.querySelector(".txtArea_comentario");
 
-txtAreaComentario.addEventListener('click', event => {
+function salvarComentario() {
+    const conteudoComentario = txtAreaComentario.value;
 
-    const conteudoComentario = txtAreaComentario.textContent;
+    var comentario = document.createElement('p');
+    comentario.classList.add("comentario_salvo");
+    comentario.textContent = conteudoComentario;
 
-    console.log(conteudoComentario);
-});
+    const comentariosSalvos = document.querySelector("span");
+    comentariosSalvos.appendChild(comentario);
+    
+    txtAreaComentario.value = "";
+};
 
