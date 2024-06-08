@@ -6,12 +6,17 @@ function salvarComentario() {
     const conteudoComentario = txtAreaComentario.value;
 
     var comentario = document.createElement('p');
-    comentario.classList.add("comentario_salvo");
+    comentario.classList.add("texto_comentario");
     comentario.textContent = conteudoComentario;
 
     const comentariosSalvos = document.querySelector("span");
     comentariosSalvos.appendChild(comentario);
     
     txtAreaComentario.value = "";
+
+    const botao = document.querySelector("button");
+    
+    botao.blur();
 };
+
 
